@@ -22,17 +22,17 @@ document.addEventListener('DOMContentLoaded', () => {
     datePublishedInput.value = today;
     timePublishedInput.value = '08:00'; // Устанавливаем время по умолчанию 08:00
 
-    authorNameInput.value = "Hello World";
-    authorUrlInput.value = "https://hwschool.online/";
+    authorNameInput.value = "Зверолэнд";
+    authorUrlInput.value = "https://zveroland.com/";
 
     // Предзаполненные данные для publisher
     const prefilledData = {
         publisher: {
             "@type": "Organization",
-            "name": "Hello World",
+            "name": "Зверолэнд",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://static.tildacdn.com/tild6438-3464-4739-b364-633037623431/HWS_Logo_FullStylemo.svg"
+                "url": "https://static.tildacdn.com/tild6236-6130-4539-a336-373735303764/_x0020_1.svg"
             }
         }
     };
