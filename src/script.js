@@ -211,8 +211,8 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 // Блок не найден, устанавливаем автора как Organization
                 authorTypeInput.value = 'Organization';
-                authorNameInput.value = 'Hello World';
-                authorUrlInput.value = 'https://hwschool.online/';
+                authorNameInput.value = 'Зверолэнд';
+                authorUrlInput.value = 'https://zveroland.com/';
             }
 
             fetchError.textContent = ''; // Очищаем ошибки, если все успешно
@@ -224,8 +224,8 @@ document.addEventListener('DOMContentLoaded', () => {
             descriptionTextarea.value = '';
             // Сбрасываем автора к организации по умолчанию
             authorTypeInput.value = 'Organization';
-            authorNameInput.value = 'Hello World';
-            authorUrlInput.value = 'https://hwschool.online/';
+            authorNameInput.value = 'Зверолэнд';
+            authorUrlInput.value = 'https://zveroland.com/';
         }
     }
 
